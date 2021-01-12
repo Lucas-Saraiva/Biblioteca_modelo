@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set VIRTUAL_ENV=C:\Users\55119\Documents\GitHub\Biblioteca_ceu
+=======
+set VIRTUAL_ENV=C:\Users\55119\Documents\GitHub\Biblioteca\venv
+>>>>>>> 04650f92e80daf4be82344cce895a982393ff4d4
 
 if not defined PROMPT set PROMPT=$P$G
 
@@ -16,7 +20,11 @@ if defined _OLD_VIRTUAL_PROMPT set PROMPT=%_OLD_VIRTUAL_PROMPT%
 if defined _OLD_VIRTUAL_PYTHONHOME set PYTHONHOME=%_OLD_VIRTUAL_PYTHONHOME%
 
 set _OLD_VIRTUAL_PROMPT=%PROMPT%
+<<<<<<< HEAD
 set PROMPT=(Biblioteca_ceu) %PROMPT%
+=======
+set PROMPT=(venv) %PROMPT%
+>>>>>>> 04650f92e80daf4be82344cce895a982393ff4d4
 
 if defined PYTHONHOME set _OLD_VIRTUAL_PYTHONHOME=%PYTHONHOME%
 set PYTHONHOME=
